@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc",
+    "start" : "cd dist && node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +15,8 @@
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "exrpess": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
   }
 }
