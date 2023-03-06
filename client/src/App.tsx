@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      홍당무마켓
+      배포성공
     </div>
   );
 }
